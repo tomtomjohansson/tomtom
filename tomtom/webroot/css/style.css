@@ -1,0 +1,160 @@
+/**
+ * General elements
+ */
+html{
+ overflow-y: scroll;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+/**
+ * Layout of the main page elements 
+ */
+#content {
+  margin: 0 auto;
+  width: 932px; 
+  padding: 20px;
+}
+
+/**
+ * headlines 
+ */
+h1, h2, h3, h4{
+}
+
+/**
+ * anchortags 
+ */
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+ul{
+  padding-left: 12px;
+}
+li{
+  list-style: square;
+  padding-left: 0;
+}
+
+/**
+ * Layout for header
+ */
+#header {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 110px;
+  left: 130px; 
+  font-size: 62px;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 195px;
+  left: 147px;
+  font-size: 15px;
+}
+
+.sitelogo{
+  position: absolute;
+  top: 85px;
+  left: 10px;
+  width: 170px;
+}
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+p{
+  font-family: Georgia;
+}
+
+/**
+ * Layout for footer
+ */
+#footer {
+  padding-top: 10px;
+}
+
+/*Div-widths*/
+.seventy{
+  width: 70%;
+  display: inline-block;
+  float: left;
+  margin-right: 18px;
+}
+
+.twentyfive{
+  display: inline-block;
+  min-height: 150px;
+  width: 25%;
+  padding: 0px 12px 0 12px;
+  margin-top:26px;
+}
+
+/**
+ * Floats
+ */
+ .left{
+  float: left;
+  margin-right: 10px;
+ }
+ .right{
+  float: right;
+  margin-left: 10px;
+ }
+
+/**
+ * Navbar
+ */
+.navbar {
+  display: block;
+  font-size:17px;
+  margin: -20px -20px 0px -20px;
+  padding: 6px 6px 6px 6px;
+}
+
+.navbar a {
+  text-decoration:none;
+  margin: 4px;
+  border-radius:4px;
+  padding: 2px 10px 2px 10px;
+  border: 1px solid transparent;
+}
+.navbar a:hover {
+  background-color: white;
+  box-shadow: inset 0 0 4px #111;
+  border: 1px solid #0A1B47;
+}
+.selected{
+  background-color: white;
+  border: 1px solid #0A1B47;
+  box-shadow: inset 0 0 4px #111;
+}
+
+/*Mixed loose parts*/
+
+.overflow{
+  clear:both;
+}
+
+hr{
+  color: #333;
+  border:none;
+  border-top:medium double #333;
+}

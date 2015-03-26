@@ -1,0 +1,134 @@
+/** 
+ * CSS for gallery.php
+ */
+
+ul.gallery {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+ul.gallery li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-right: 8px;
+  margin-bottom: 20px;
+  position:relative;
+}
+ 
+ul.gallery li {
+  padding: 4px;
+}
+ 
+ul.gallery li figure  {
+  margin: 0;
+}
+ 
+ul.gallery li figure figcaption {
+  font-size: 0.85em;
+  color: #666;
+}
+ 
+ul.gallery li:hover  {
+}
+ 
+ul.gallery li:hover figcaption {
+  color: #111;
+}
+ 
+ul.gallery li a  {
+  text-decoration: none;
+}
+
+/**
+ * CSS for figure and displaying images.
+ */
+figure.figure {
+  display: table;
+  padding: 0;
+  margin: 16px 16px 22px 16px;
+}
+ 
+/* Chrome shinks images in td */
+figure.figure td img {
+  max-width: none;
+}
+ 
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding: 0;
+  font-style: italic;
+}
+
+/** --------------------------------------------------------------
+ * Position figure on the article
+ */
+figure.left {
+  float: left;
+  margin-right: 1em;
+  font-size: 0.875em;
+}
+
+figure.right {
+  float: right;
+  margin-left: 1em;
+  font-size: 0.875em;
+}
+
+figure.center {
+  clear: both;
+}
+
+figure.center img {
+  margin: 0 auto;
+}
+  
+figure.center figcaption {
+  text-align: center;
+}
+
+/** --------------------------------------------------------------
+ * Breadcrumb
+ */
+ul.breadcrumb {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 6px 0;
+}
+ 
+ul.breadcrumb li {
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+ 
+ul.breadcrumb a {
+  font-size: 0.85em;
+  text-decoration: none;
+  color: #666;
+}
+ 
+ul.breadcrumb a:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+.hidden{
+  display: none;
+  float: left;
+  position: absolute;
+  bottom: -20px;
+  left: 35px;
+  background-color: white;
+  padding:2px;
+  border: 1px solid #333;
+  font-family: helvetica;
+  font-size: 10px;
+}
+
+ul.gallery li:hover .hidden{
+  display: inline-block;
+
+}
