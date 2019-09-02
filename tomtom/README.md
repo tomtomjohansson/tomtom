@@ -16,7 +16,7 @@ tomtom contains three folders: webroot, src and theme.
 1.2 Folders in Webroot
 cache - Cache for files from img.php.
 
-css - contains files with basic designs for html elements. Seperated into the main style.css, table.css, gallery.css and source.css.
+csss- contains files with basic designs for html elements. Seperated into the main style.css, table.css, gallery.css and source.css.
 
 img - For images. Subdirectory gallery works with img.php.
 
